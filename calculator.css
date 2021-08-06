@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#header {
+    position: absolute;
+    padding-bottom: 35%;
+    clear: both;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(31,31,31,0.8);
+}
+
+#footer {
+    position: absolute;
+    padding-top: 37%;
+    clear: both;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(31,31,31,0.8);
+}
+
+.wrapper {
+    position: fixed;
+    width: 45%;
+    height: 313px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(2,0,36);
+    background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 12px 12px 20px rgba(31,31,31,0.5);
+}
+
+.display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btns .row button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow:  5px 5px 8px #00000020;
+}
+
+.btns .row button:hover {
+    color: white;
+    transition: 0.25s; 
+    box-shadow:  inset 5px 5px 8px rgba(16,16,16,.5);
+    background: rgba(255,255,255,0.1);
+}
+
+#eval {
+    background: #33ccff;
+    color: #ffffff;
+    box-shadow:  inset 5px 5px 8px #66d9ff,
+                 inset -5px -5px 8px #00ace6;
+}
+
+/* #eval:hover {
+    box-shadow:  inset 5px 5px 8px #00ace6,
+                 inset -5px -5px 8px #00ace6;
+} */
+
+#eval:hover {
+    color: white;
+    transition: 0.25s; 
+    box-shadow:  inset 5px 5px 8px rgba(16,16,16,.5);
+    background: rgba(51,204,255,0.5);
+}
+
+#ce {
+    background: #ff3399;
+    color: #ffffff;
+}
+
+/* #ce:hover {
+    box-shadow:  inset 5px 5px 8px #e60073,
+                 inset -5px -5px 8px #ff3399;
+} */
+
+#ce:hover {
+    color: white;
+    transition: 0.25s; 
+    box-shadow:  inset 5px 5px 8px rgba(16,16,16,.5);
+    background: rgba(255,51,153,0.5);
+}
+
+#ac {
+    background: #33cc33;
+    color: #ffffff;
+    
+}
+
+/* #ac:hover {
+    box-shadow:  inset 5px 5px 8px #2eb82e,
+                 inset -5px -5px 8px #33cc33;
+} */
+
+#ac:hover {
+    color: white;
+    transition: 0.25s; 
+    box-shadow:  inset 5px 5px 8px rgba(16,16,16,.5);
+    background: rgba(51,204,51,0.5);
+}
+
+#dot {
+    font-weight: bold;
+}
+
